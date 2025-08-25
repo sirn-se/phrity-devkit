@@ -1,0 +1,29 @@
+{
+    "name": "{repo.name}",
+    "type": "library",
+    "description": "",
+    "homepage": "https://phrity.sirn.se/{repo.page}",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sören Jensen",
+            "email": "sirn@sirn.se",
+            "homepage": "https://phrity.sirn.se"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "{namespace}": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "{namespace}Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "phrity/devkit": "^1.0"
+    }
+}
